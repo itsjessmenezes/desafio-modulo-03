@@ -1,7 +1,5 @@
 import './style.css';
 
-// import setaUp from '../../assets/arrow-up.svg';
-// import setaDown from '../../assets/arrow-down.svg';
 import { useState } from 'react';
 
 function Tabela({ transacao, setTransacao }) {
