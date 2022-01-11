@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+}
+.container-body {
+  background: #ffffff;
+  display: flex;
+  height: 100%;
+  margin-top: -116px;
+  padding-left: 119px;
+  padding-top: 55px;
+  border-radius: 60px 60px 0px 0px;
+}
+.container {
+  margin-right: 34px;
+}
+
+.credit-color {
+  color: #645ffb;
+  font-weight: 500;
+}
+
+.debit-color {
+  color: #fa8c10;
+  font-weight: 500;
+}

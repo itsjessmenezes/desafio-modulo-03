@@ -1,0 +1,127 @@
+.modal-card {
+  background: rgba(61, 61, 61, 0.48);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Rubik', sans-serif;
+  z-index: 999;
+}
+
+.modal-container {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  max-width: 611px;
+  padding: 61px 64px;
+  border-radius: 20px;
+}
+
+.add-registro {
+  display: flex;
+  margin-bottom: 52px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h1 {
+  font-size: 36px;
+  text-align: center;
+  line-height: 43px;
+}
+
+.buttons {
+  display: flex;
+  margin-bottom: 42px;
+}
+
+input[type='radio']#credit-button,
+input[type='radio']#debit-button {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+label#credit-button,
+label#debit-button {
+  all: unset;
+  box-sizing: border-box;
+
+  background-color: #b9b9b9;
+  display: inline-block;
+  width: 245px;
+  height: 60px;
+  padding: 20px 30px;
+
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+}
+
+label#credit-button {
+  border-radius: 10px 0px 0px 10px;
+}
+label#debit-button {
+  border-radius: 0px 10px 10px 0px;
+}
+
+#credit-button:hover,
+#debit-button:hover,
+.close-icon:hover,
+.btn-insert:hover {
+  cursor: pointer;
+}
+
+input#credit-button:checked + label {
+  background-image: linear-gradient(91deg, #05ede3, #3a9ff1);
+}
+input#debit-button:checked + label {
+  background-image: linear-gradient(91deg, #fa8c10, #ff576b);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 43px;
+}
+
+.label {
+  margin-bottom: 9px;
+
+  color: #484848;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.input {
+  all: unset;
+  box-sizing: border-box;
+
+  background-color: #ffffff;
+  width: 485px;
+  height: 64px;
+  margin-bottom: 26px;
+  padding: 21px 24px;
+  border: 1px solid #555555;
+  border-radius: 5px;
+}
+
+.btn-insert {
+  all: unset;
+  box-sizing: border-box;
+
+  background-color: #645ffb;
+  width: 236px;
+  height: 42px;
+  margin: auto;
+  border-radius: 5px;
+
+  color: #ffffff;
+  text-align: center;
+}

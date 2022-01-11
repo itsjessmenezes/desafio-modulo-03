@@ -1,0 +1,22 @@
+{
+  "transactions": [
+    {
+      "date": "2021-10-12T03:00:00.000Z",
+      "week_day": "terça",
+      "description": "acac",
+      "value": 24234324,
+      "category": "qdqwdqw",
+      "type": "debit",
+      "id": 1
+    },
+    {
+      "date": "2021-10-12T03:00:00.000Z",
+      "week_day": "terça",
+      "description": "csdcsdc",
+      "value": 2342432,
+      "category": "dqdqd",
+      "type": "credit",
+      "id": 2
+    }
+  ]
+}

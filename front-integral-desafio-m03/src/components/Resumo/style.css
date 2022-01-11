@@ -1,0 +1,72 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-resume {
+  background: #fafafa;
+  width: 236px;
+  height: 196px;
+  margin-top: 61px;
+  margin-bottom: 18px;
+  padding: 26px 33px 31px 26px;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  font-size: 13px;
+  line-height: 15px;
+}
+.h1-resumo {
+  margin-bottom: 23px;
+
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.entradas,
+.saidas,
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+}
+
+span.credit-color,
+span.debit-color {
+  font-weight: bold;
+}
+
+.total {
+  color: #3a9ff1;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+}
+
+.line-divisor {
+  width: 189px;
+  border: 1px solid #e0e0e0;
+  margin: 17px 0px;
+}
+
+.btn-add {
+  all: unset;
+  box-sizing: border-box;
+
+  background-image: linear-gradient(to right, #fa8c10, #ff57d3);
+  width: 236px;
+  height: 38px;
+  text-align: center;
+  border-radius: 5px;
+
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.btn-add:hover {
+  cursor: pointer;
+}
